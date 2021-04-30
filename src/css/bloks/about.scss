@@ -23,3 +23,18 @@
     align-items: center;
     margin-right: 30px;
 }
+
+.text__item {
+    overflow: hidden;
+    //margin-bottom: 20px;
+  }
+  ._anim-show {
+    transform: translate(0, 120%);
+    transition: all 1.2s ease 0s;
+    opacity: 0;
+  }
+
+  ._anim-show.-active, .-active ._anim-show {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
