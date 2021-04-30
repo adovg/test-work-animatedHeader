@@ -18,18 +18,18 @@
 <body>
 <div class="content">
     <div class="container">
-
-        <!-- <nav class="nav wrap">
+        
+        <menu class="menu__container wrap">
             <ul class="menu">
                 <li class="menu__logo"><a href="#" title="company logo"><img src="./build/img/logo.svg" alt=""></i></a></li>
                 <li class="menu__item">Menu</li>
             </ul>
-        </nav> -->
+        </menu>
 
         <header class="header wrap">
             
 
-            <div id="video-bg" class="wrap">
+            <div id="video-bg" class="">
                 <video width="100%" height="auto" preload="auto" autoplay="autoplay"
                 loop="loop" poster="./assets/back.png">
                 <source src="./assets/videoBack.mp4" type="video/mp4"></source>
@@ -37,7 +37,7 @@
                 </video>
             </div>
             
-            <div class="hero__content">
+            <div class="hero__content" id="circle-bg">
                 <div class="hero__logo">VKV Agency</div>
                 <h1 class="hero__slogan">
                     <span class="slogan__line slogan__line-top"> Take your time - use</span>
@@ -49,16 +49,46 @@
 
         </header>
 
+        <nav class="navigation">
+            <div class="navigation__wrap wrap">
+            <a href="#" class="navigation__logo"><img src="./build/img/logo-white.svg" alt="logo"></a>
+            <ul class="navigation__list">
+                <li>About</li>
+                <li>Capabilities</li>
+                <li>Agent’s Reward</li>
+                <li>Logistic</li>
+                <li>Trade</li>
+                <li>Contacts</li>
+            </ul>
+            </div>
+        </nav>
 
 
+        <section class="about wrap">
 
-        <section class="section-1">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis soluta porro ut exercitationem possimus omnis voluptate aut harum. 
-                Placeat accusantium officiis impedit voluptates repudiandae voluptate corrupti, possimus sunt culpa natus nulla vitae architecto fuga. 
-                Tenetur assumenda ad unde delectus. Excepturi voluptatibus, harum vel a unde nihil vitae perspiciatis dolor hic assumenda nulla, 
-                laboriosam, et amet ullam? Accusamus at corrupti libero explicabo saepe sit aperiam enim voluptas nesciunt magni dolores magnam,
-                 nam dignissimos ducimus, quisquam architecto vero corporis impedit in consequuntur quaerat nisi! Deserunt tenetur, culpa facilis quidem architecto vel sequi cum soluta temporibus reiciendis. Alias placeat quo pariatur sed aliquam repudiandae dolores dolorum, quaerat ullam doloremque. Vero, commodi? Ipsa unde aut commodi totam ratione vel, laboriosam voluptatibus minus exercitationem libero possimus. Perferendis esse officiis nemo beatae ex temporibus praesentium nesciunt minima necessitatibus. Magnam laudantium nobis omnis, deserunt explicabo laboriosam alias fuga impedit molestias voluptatum totam quo at ut rerum recusandae tempore error aut doloremque aliquid, incidunt voluptatem eius beatae! Perspiciatis magni corrupti deserunt molestiae non iusto sequi delectus impedit natus necessitatibus? Culpa quas velit porro aut.
-                Ab adipisci voluptatum ipsam dolores laborum neque, sapiente voluptas earum illo magni minima obcaecati ducimus aliquam fugiat temporibus optio dolor consequuntur cum molestiae! Sed!</p>
+           <div class="about__row">
+               <h2 class="about__title">
+                   About us
+                </h2>
+               <div class="about__text">
+                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                       Malesuada ut urna, semper tristique elementum scelerisque nullam. 
+                       Augue ultrices ultrices mattis leo et urna tincidunt. 
+                    </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Malesuada ut urna, semper tristique elementum scelerisque nullam. 
+                        Augue ultrices ultrices mattis leo et urna tincidunt. 
+                     </p>
+               </div>
+           </div>  
+
+           <div class="about__row">
+            <p class="about__text about__text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Malesuada ut urna, semper tristique elementum scelerisque nullam. 
+                Augue ultrices ultrices mattis leo et urna Lorem ipsum dolor sit amet consectetur tincidunt. 
+             </p>
+             <img src="./build/img/about__image.png" alt="works" class="about__img">
+           </div>
         </section>
 
         
@@ -68,6 +98,7 @@
             <footer class="footer wrap">
  
         </footer>
+        <script src="./build/js/script.js"></script>
 </body>
 
 </html>

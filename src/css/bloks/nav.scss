@@ -1,0 +1,22 @@
+.navigation {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-bottom: 270px;
+}
+.navigation__wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+        li {
+            margin: 38px 25px 38px 0;
+            font-size: 1.125rem;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+}
